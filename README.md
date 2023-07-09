@@ -70,29 +70,29 @@ Adjusted VictoryTypeDestructionLevelsTable to match above
 
 DivisionCostMatrix:
 
--Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
+Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
 
 /-------------------------------------------------------------------/
 
 Divisions:
 
--15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
+15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
 
--All NATO units in Berlin Command
+All NATO units in Berlin Command
 
--All PACT units in Berlin Grunpen
+All PACT units in Berlin Grunpen
 
 /-------------------------------------------------------------------/
 
 DivisionRules:
 
--200 Units per Card (3479 Units in total, to make sure I changed all units)
+200 Units per Card (3479 Units in total, to make sure I changed all units)
 
--All units at all Veterencies
+All units at all Veterencies
 
--All NATO units in Berlin Command (Has to match Divisions file)
+All NATO units in Berlin Command (Has to match Divisions file)
 
--All PACT units in Berlin Grunpen (Has to match Divisions file)
+All PACT units in Berlin Grunpen (Has to match Divisions file)
 
 /-------------------------------------------------------------------/
 
