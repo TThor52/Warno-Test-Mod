@@ -6,9 +6,9 @@ Here's what's changed and in what file:
 
 Ravitaillement:
 
--Doubled SpecificDefaultSupplyRange
+Doubled SpecificDefaultSupplyRange
 
--Doubled zOffset (To show the player the new radius)
+Doubled zOffset (To show the player the new radius)
 
 /-------------------------------------------------------------------/
 
@@ -18,53 +18,53 @@ Note: The headers are the headers commmented out i.e. //--------------Constantes
 
 //Constantes Commander
 
--Doubled Command Zone Radius of Command Units
+Doubled Command Zone Radius of Command Units
 
 //Constantes Lobby
 
--Changed time limits to 10, 20, 30, 40, 50, 60, 0(None)
+Changed time limits to 10, 20, 30, 40, 50, 60, 0(None)
 
 //Constantes Conquest
 
--Changed TimeBeforeEarningConquestPoints from 1.5 -> 2.0
+Changed TimeBeforeEarningConquestPoints from 1.5 -> 2.0
  
--Added More Scores to ConquestPossibleScores: 5000, 10000, 20000, 30000, 40000, 50000, 100000
+Added More Scores to ConquestPossibleScores: 5000, 10000, 20000, 30000, 40000, 50000, 100000
 
 //Constantes Economy
 
--Adjusted base income
+Adjusted base income
 
-  -CTF(Conquest) 260 -> 200
+-CTF(Conquest) 260 -> 200
  
-  -Destruction 4 -> 6
+-Destruction 4 -> 6
  
--Adjusted the time before earning income
+Adjusted the time before earning income
 
- -CTF(Conquest) 60 seconds -> 50 seconds
+-CTF(Conquest) 60 seconds -> 50 seconds
  
  -Destruction 4 seconds -> 5 seconds
 
 //Constantes Destruction
 
--Added an IncomeMultiplierToken: 'CONQ_HIGH'
+Added an IncomeMultiplierToken: 'CONQ_HIGH'
  
--Added an IncomeMultiplier: 1.5
+Added an IncomeMultiplier: 1.5
 
 //Constantes Lobby (Yes, another one near the bottom of the file)
 
--Adjusted the Initial Starting Points (ArgentInitialSetting)
+Adjusted the Initial Starting Points (ArgentInitialSetting)
 
- -Original = 500, 1000, 1500, 2000, 2500, 3000
+-Original = 500, 1000, 1500, 2000, 2500, 3000
  
- -New = 1000, 2000, 3000, 4000, 5000, 10000
+-New = 1000, 2000, 3000, 4000, 5000, 10000
 
--Adjust Destruction Score Limits
+Adjust Destruction Score Limits
 
- -Original = 3000, 4000, 5000, 6000, 8000
+-Original = 3000, 4000, 5000, 6000, 8000
  
- -New = 5000, 7500, 10000, 12500, 15000
+-New = 5000, 7500, 10000, 12500, 15000
 
--Adjusted VictoryTypeDestructionLevelsTable to match above
+Adjusted VictoryTypeDestructionLevelsTable to match above
 
 /-------------------------------------------------------------------/
 
