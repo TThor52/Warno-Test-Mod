@@ -1,7 +1,5 @@
 # Warno-Test-Mod
 
-Just a place to hold my changes to WARNO
-
 Here's what's changed and in what file:
 
 Ravitaillement.ndf:
