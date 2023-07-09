@@ -1,5 +1,7 @@
 # Warno-Test-Mod
 
+Big shout-out to Jonitr0's Editer for WARNO. Makes editing these files a bit easier. Here's the link: https://github.com/Jonitr0/WarnoModEditor
+
 Here's what's changed and in what file:
 
 Ravitaillement.ndf:
