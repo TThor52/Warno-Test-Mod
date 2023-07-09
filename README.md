@@ -16,27 +16,27 @@ GDConstantes:
 
 Note: The headers are the headers commmented out i.e. //--------------Constantes Commander---------------//
 
-Constantes Commander
+//Constantes Commander
 
 -Doubled Command Zone Radius of Command Units
 
-Constantes Lobby
+//Constantes Lobby
 
 -Changed time limits to 10, 20, 30, 40, 50, 60, 0(None)
 
-Constantes Conquest
+//Constantes Conquest
 
 -Changed TimeBeforeEarningConquestPoints from 1.5 -> 2.0
  
 -Added More Scores to ConquestPossibleScores: 5000, 10000, 20000, 30000, 40000, 50000, 100000
 
-Constantes Economy
+//Constantes Economy
 
 -Adjusted base income
 
- -CTF(Conquest) 260 -> 200
+  -CTF(Conquest) 260 -> 200
  
- -Destruction 4 -> 6
+  -Destruction 4 -> 6
  
 -Adjusted the time before earning income
 
@@ -44,13 +44,13 @@ Constantes Economy
  
  -Destruction 4 seconds -> 5 seconds
 
-Constantes Destruction
+//Constantes Destruction
 
 -Added an IncomeMultiplierToken: 'CONQ_HIGH'
  
 -Added an IncomeMultiplier: 1.5
 
-Constantes Lobby (Yes, another one near the bottom of the file)
+//Constantes Lobby (Yes, another one near the bottom of the file)
 
 -Adjusted the Initial Starting Points (ArgentInitialSetting)
 
