@@ -10,6 +10,12 @@ Doubled SpecificDefaultSupplyRange
 
 Doubled zOffset (To show the player the new radius)
 
+Supplies given (Except Ammo) has been increaseed by 5x
+
+Ammo increased by 10x
+
+Supply cost (Except Ammo) has been reduced to 1
+
 /-------------------------------------------------------------------/
 
 GDConstantes.ndf:
