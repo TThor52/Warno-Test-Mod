@@ -26,11 +26,12 @@ Constantes Lobby
  -10, 20, 30, 40, 50, 60, 0(None)
 
 Constantes Conquest
+
 -Changed TimeBeforeEarningConquestPoints
  -1.5 -> 2.0
+ 
 -Added More Scores to ConquestPossibleScores
  -5000, 10000, 20000, 30000, 40000, 50000, 100000
- -Will find in "Score Limit" dropdown box
 
 Constantes Economy
 -Adjusted base income
