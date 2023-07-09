@@ -23,6 +23,7 @@ Constantes Commander
 Constantes Lobby
 
 -Changed time limits
+
  -10, 20, 30, 40, 50, 60, 0(None)
 
 Constantes Conquest
@@ -31,21 +32,27 @@ Constantes Conquest
  -1.5 -> 2.0
  
 -Added More Scores to ConquestPossibleScores
+
  -5000, 10000, 20000, 30000, 40000, 50000, 100000
 
 Constantes Economy
 
 -Adjusted base income
+
  -CTF(Conquest) 260 -> 200
+ 
  -Destruction 4 -> 6
  
 -Adjusted the time before earning income
+
  -CTF(Conquest) 60 seconds -> 50 seconds
+ 
  -Destruction 4 seconds -> 5 seconds
 
 Constantes Destruction
 
 -Added an IncomeMultiplierToken
+
  -'CONQ_HIGH'
  
 -Added an IncomeMultiplier
@@ -54,12 +61,15 @@ Constantes Destruction
 Constantes Lobby (Yes, another one near the bottom of the file)
 
 -Adjusted the Initial Starting Points (ArgentInitialSetting)
+
  -Original = 500, 1000, 1500, 2000, 2500, 3000
+ 
  -New = 1000, 2000, 3000, 4000, 5000, 10000
 
 -Adjust Destruction Score Limits
 
- -Original = 3000, 4000, 5000, 6000, 8000 to
+ -Original = 3000, 4000, 5000, 6000, 8000
+ 
  -New = 5000, 7500, 10000, 12500, 15000
 
 -Adjusted VictoryTypeDestructionLevelsTable to match above
@@ -75,7 +85,9 @@ DivisionCostMatrix:
 Divisions:
 
 -15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
+
 -All NATO units in Berlin Command
+
 -All PACT units in Berlin Grunpen
 
 /-------------------------------------------------------------------/
@@ -83,8 +95,11 @@ Divisions:
 DivisionRules:
 
 -200 Units per Card (3479 Units in total, to make sure I changed all units)
+
 -All units at all Veterencies
+
 -All NATO units in Berlin Command (Has to match Divisions file)
+
 -All PACT units in Berlin Grunpen (Has to match Divisions file)
 
 /-------------------------------------------------------------------/
@@ -92,6 +107,7 @@ DivisionRules:
 Future changes:
 
 Deck specific
+
 -Adjusting unit costs
 
 Lobby specific
@@ -101,8 +117,11 @@ Lobby specific
 Game-play specific
 
 -Making certain units "Airborne" i.e. forward deploy-able
+
 -Changing the range of all units (~1.5 to ~2 times)
+
 -Adding more HE to tanks
+
 -Adjusting the height of planes
 
 UI specific
