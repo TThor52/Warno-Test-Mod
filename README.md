@@ -5,7 +5,9 @@ Just a place to hold my changes to WARNO
 Here's what's changed and in what file:
 
 Ravitaillement:
+
 -Doubled SpecificDefaultSupplyRange
+
 -Doubled zOffset (To show the player the new radius)
 
 /-------------------------------------------------------------------/
