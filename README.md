@@ -17,9 +17,11 @@ GDConstantes:
 Note: The headers are the headers commmented out i.e. //--------------Constantes Commander---------------//
 
 Constantes Commander
+
 -Doubled Command Zone Radius of Command Units
 
 Constantes Lobby
+
 -Changed time limits
  -10, 20, 30, 40, 50, 60, 0(None)
 
