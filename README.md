@@ -4,7 +4,7 @@ Just a place to hold my changes to WARNO
 
 Here's what's changed and in what file:
 
-Ravitaillement:
+Ravitaillement.ndf:
 
 Doubled SpecificDefaultSupplyRange
 
@@ -12,7 +12,7 @@ Doubled zOffset (To show the player the new radius)
 
 /-------------------------------------------------------------------/
 
-GDConstantes:
+GDConstantes.ndf:
 
 Note: The headers are the headers commmented out i.e. //--------------Constantes Commander---------------//
 
@@ -68,13 +68,13 @@ Adjusted VictoryTypeDestructionLevelsTable to match above
 
 /-------------------------------------------------------------------/
 
-DivisionCostMatrix:
+DivisionCostMatrix.ndf:
 
 Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
 
 /-------------------------------------------------------------------/
 
-Divisions:
+Divisions.ndf:
 
 15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
 
@@ -84,7 +84,7 @@ All PACT units in Berlin Grunpen
 
 /-------------------------------------------------------------------/
 
-DivisionRules:
+DivisionRules.ndf:
 
 200 Units per Card (3479 Units in total, to make sure I changed all units)
 
