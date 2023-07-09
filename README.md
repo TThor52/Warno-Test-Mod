@@ -7,7 +7,6 @@ Here's what's changed and in what file:
 Ravitaillement:
 
 -Doubled SpecificDefaultSupplyRange
-
 -Doubled zOffset (To show the player the new radius)
 
 /-------------------------------------------------------------------/
@@ -34,25 +33,31 @@ Constantes Conquest
  -5000, 10000, 20000, 30000, 40000, 50000, 100000
 
 Constantes Economy
+
 -Adjusted base income
  -CTF(Conquest) 260 -> 200
  -Destruction 4 -> 6
+ 
 -Adjusted the time before earning income
  -CTF(Conquest) 60 seconds -> 50 seconds
  -Destruction 4 seconds -> 5 seconds
 
 Constantes Destruction
+
 -Added an IncomeMultiplierToken
  -'CONQ_HIGH'
+ 
 -Added an IncomeMultiplier
  -1.5
 
 Constantes Lobby (Yes, another one near the bottom of the file)
+
 -Adjusted the Initial Starting Points (ArgentInitialSetting)
  -Original = 500, 1000, 1500, 2000, 2500, 3000
  -New = 1000, 2000, 3000, 4000, 5000, 10000
 
 -Adjust Destruction Score Limits
+
  -Original = 3000, 4000, 5000, 6000, 8000 to
  -New = 5000, 7500, 10000, 12500, 15000
 
@@ -61,11 +66,13 @@ Constantes Lobby (Yes, another one near the bottom of the file)
 /-------------------------------------------------------------------/
 
 DivisionCostMatrix:
+
 -Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
 
 /-------------------------------------------------------------------/
 
 Divisions:
+
 -15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
 -All NATO units in Berlin Command
 -All PACT units in Berlin Grunpen
@@ -73,6 +80,7 @@ Divisions:
 /-------------------------------------------------------------------/
 
 DivisionRules:
+
 -200 Units per Card (3479 Units in total, to make sure I changed all units)
 -All units at all Veterencies
 -All NATO units in Berlin Command (Has to match Divisions file)
@@ -81,19 +89,23 @@ DivisionRules:
 /-------------------------------------------------------------------/
 
 Future changes:
+
 Deck specific
 -Adjusting unit costs
 
 Lobby specific
+
 -Add more initial starting points and destruction points (seen in other mods)
 
 Game-play specific
+
 -Making certain units "Airborne" i.e. forward deploy-able
 -Changing the range of all units (~1.5 to ~2 times)
 -Adding more HE to tanks
 -Adjusting the height of planes
 
 UI specific
+
 -attempt to add drop-down boxes in the lobby for mods (we'll see)
 
 Inspiration for these changes come from other mods. Mainly used to learn how to mod WARNO.
