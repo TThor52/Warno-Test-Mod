@@ -22,18 +22,13 @@ Constantes Commander
 
 Constantes Lobby
 
--Changed time limits
-
- -10, 20, 30, 40, 50, 60, 0(None)
+-Changed time limits to 10, 20, 30, 40, 50, 60, 0(None)
 
 Constantes Conquest
 
--Changed TimeBeforeEarningConquestPoints
- -1.5 -> 2.0
+-Changed TimeBeforeEarningConquestPoints from 1.5 -> 2.0
  
--Added More Scores to ConquestPossibleScores
-
- -5000, 10000, 20000, 30000, 40000, 50000, 100000
+-Added More Scores to ConquestPossibleScores: 5000, 10000, 20000, 30000, 40000, 50000, 100000
 
 Constantes Economy
 
@@ -51,12 +46,9 @@ Constantes Economy
 
 Constantes Destruction
 
--Added an IncomeMultiplierToken
-
- -'CONQ_HIGH'
+-Added an IncomeMultiplierToken: 'CONQ_HIGH'
  
--Added an IncomeMultiplier
- -1.5
+-Added an IncomeMultiplier: 1.5
 
 Constantes Lobby (Yes, another one near the bottom of the file)
 
