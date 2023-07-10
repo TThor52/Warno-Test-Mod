@@ -16,7 +16,7 @@ Tutorial 2 - https://www.youtube.com/watch?v=Tqz0AMBZjRE
 
 Here's what's changed and in what file:
 
-/--GameData/Gameplay/Constantes/Ravitaillement.ndf:
+GameData/Gameplay/Constantes/Ravitaillement.ndf:
 
 -Doubled SpecificDefaultSupplyRange
 
@@ -30,7 +30,7 @@ Here's what's changed and in what file:
 
 /-------------------------------------------------------------------/
 
-/--GameData/Gameplay/Constantes/GDConstantes.ndf:
+GameData/Gameplay/Constantes/GDConstantes.ndf:
 
 Note: The headers are the headers commmented out i.e. //--------------Constantes Commander---------------//
 
@@ -86,13 +86,13 @@ Note: The headers are the headers commmented out i.e. //--------------Constantes
 
 /-------------------------------------------------------------------/
 
-/--GameData/Gameplay/Decks/DivisionCostMatrix.ndf:
+GameData/Gameplay/Decks/DivisionCostMatrix.ndf:
 
 -Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
 
 /-------------------------------------------------------------------/
 
-/--GameData/Generated/Gameplay/Decks/Divisions.ndf:
+GameData/Generated/Gameplay/Decks/Divisions.ndf:
 
 -15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
 
@@ -102,7 +102,7 @@ Note: The headers are the headers commmented out i.e. //--------------Constantes
 
 /-------------------------------------------------------------------/
 
-/--GameData/Generated/Gameplay/Decks/DivisionRules.ndf:
+GameData/Generated/Gameplay/Decks/DivisionRules.ndf:
 
 -200 Units per Card (3479 Units in total, to make sure I changed all units)
 
@@ -114,13 +114,13 @@ Note: The headers are the headers commmented out i.e. //--------------Constantes
 
 /-------------------------------------------------------------------/
 
-/--GameData/Generated/Gamplay/Gfx/BuildingDescriptors.ndf
+GameData/Generated/Gamplay/Gfx/BuildingDescriptors.ndf
 
 -Changed SupplyCapacity of all FOBs from 16000.0 to 200000.0
 
 /-------------------------------------------------------------------/
 
-/--GameData/Generated/Gamplay/Gfx/UniteDescriptor.ndf
+GameData/Generated/Gamplay/Gfx/UniteDescriptor.ndf
 
 -SupplyCapacity of all vehicles increased by 5x
 
