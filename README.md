@@ -1,16 +1,28 @@
 # Warno-Test-Mod
 
-Big shout-out to Jonitr0's Editer for WARNO. Makes editing these files a bit easier. Here's the link: https://github.com/Jonitr0/WarnoModEditor
+/-------------------------------------------------------------------/
+
+Big shout-outs to: 
+
+Jonitr0's Editer for WARNO. Makes editing these files a bit easier. Here's the link: https://github.com/Jonitr0/WarnoModEditor
+
+Outmilk's Tutorials on youtube that were useful for most of the changes:
+
+Tutorial 1 - https://www.youtube.com/watch?v=jtNapsI2th0
+
+Tutorial 2 - https://www.youtube.com/watch?v=Tqz0AMBZjRE
+
+/-------------------------------------------------------------------/
 
 Here's what's changed and in what file:
 
-Ravitaillement.ndf:
+GameData/Gameplay/Constantes/Ravitaillement.ndf:
 
 Doubled SpecificDefaultSupplyRange
 
 Doubled zOffset (To show the player the new radius)
 
-Supplies given (Except Ammo) has been increaseed by 5x
+Supplies given (Except Ammo) have been increaseed by 5x
 
 Ammo increased by 10x
 
@@ -18,7 +30,7 @@ Supply cost (Except Ammo) has been reduced to 1
 
 /-------------------------------------------------------------------/
 
-GDConstantes.ndf:
+GameData/Gameplay/Constantes/GDConstantes.ndf:
 
 Note: The headers are the headers commmented out i.e. //--------------Constantes Commander---------------//
 
@@ -48,7 +60,7 @@ Adjusted the time before earning income
 
 -CTF(Conquest) 60 seconds -> 50 seconds
  
- -Destruction 4 seconds -> 5 seconds
+-Destruction 4 seconds -> 5 seconds
 
 //Constantes Destruction
 
@@ -60,13 +72,13 @@ Added an IncomeMultiplier: 1.5
 
 Adjusted the Initial Starting Points (ArgentInitialSetting)
 
--Original = 500, 1000, 1500, 2000, 2500, 3000
+-Old = 500, 1000, 1500, 2000, 2500, 3000
  
 -New = 1000, 2000, 3000, 4000, 5000, 10000
 
 Adjust Destruction Score Limits
 
--Original = 3000, 4000, 5000, 6000, 8000
+-Old = 3000, 4000, 5000, 6000, 8000
  
 -New = 5000, 7500, 10000, 12500, 15000
 
@@ -74,13 +86,13 @@ Adjusted VictoryTypeDestructionLevelsTable to match above
 
 /-------------------------------------------------------------------/
 
-DivisionCostMatrix.ndf:
+GameData/Gameplay/Decks/DivisionCostMatrix.ndf:
 
 Gave all divisions 10 slots at no cost (i.e. 0 activation cost)
 
 /-------------------------------------------------------------------/
 
-Divisions.ndf:
+GameData/Generated/Gameplay/Decks/Divisions.ndf:
 
 15 Cards per Unit (2611 Cards in total, to make sure I changed all units)
 
@@ -90,40 +102,52 @@ All PACT units in Berlin Grunpen
 
 /-------------------------------------------------------------------/
 
-DivisionRules.ndf:
+GameData/Generated/Gameplay/Decks/DivisionRules.ndf:
 
 200 Units per Card (3479 Units in total, to make sure I changed all units)
 
 All units at all Veterencies
 
-All NATO units in Berlin Command (Has to match Divisions file)
+All NATO units in Berlin Command (Has to match Divisions file above)
 
-All PACT units in Berlin Grunpen (Has to match Divisions file)
+All PACT units in Berlin Grunpen (Has to match Divisions file above)
 
 /-------------------------------------------------------------------/
 
-Future changes:
+GameData/Generated/Gamplay/Gfx/BuildingDescriptors.ndf
 
-Deck specific
+Changed SupplyCapacity of all FOBs from 16000.0 to 200000.0
 
--Adjusting unit costs
+/-------------------------------------------------------------------/
 
-Lobby specific
+GameData/Generated/Gamplay/Gfx/UniteDescriptor.ndf
 
--Add more initial starting points and destruction points (seen in other mods)
+SupplyCapacity of all vehicles increased by 5x
 
-Game-play specific
+/-------------------------------------------------------------------/
 
--Making certain units "Airborne" i.e. forward deploy-able
+Future endeavors:
 
--Changing the range of all units (~1.5 to ~2 times)
+//Deck specific
 
--Adding more HE to tanks
+Adjusting unit costs
 
--Adjusting the height of planes
+//Lobby specific
 
-UI specific
+Add more initial starting points and destruction points (seen in other mods)
 
--attempt to add drop-down boxes in the lobby for mods (we'll see)
+//Game-play specific
+
+Making certain units "Airborne" i.e. forward deploy-able (FOBs, certain supply vehicles, other)
+
+Changing the range of all units (~1.5 to ~2 times)
+
+Adding more HE to tanks (+1 to +2 max)
+
+Adjusting the height of planes (why not?)
+
+//UI specific
+
+Attempt to add drop-down boxes in the lobby for mods (sounds extremely difficult)
 
 Inspiration for these changes come from other mods. Mainly used to learn how to mod WARNO.
